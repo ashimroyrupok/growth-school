@@ -31,8 +31,8 @@ const Timer = () => {
             </span>
             499
             <span className="relative mx-2">
-              1999{" "}
-              <hr className="-my-3 bg-[#131033] font-bold text-[#131033] border-2-[#131033] " />
+              1999
+              <h2 className="-my-4 h-1 bg-[#131033] font-bold text-[#131033]  " > </h2>
             </span>
           </button>
         </div>

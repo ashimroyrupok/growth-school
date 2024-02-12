@@ -1,5 +1,6 @@
 import AboutFounder from "../../Components/AboutFounder/AboutFounder";
 import Banner from "../../Components/Banner/Banner";
+import CallToAction from "../../Components/CallToAction/CallToAction";
 import Timer from "../../Components/Timer/Timer";
 import WhyChooseUs from "../../Components/WhyChooseUs/WhyChooseUs";
 
@@ -10,6 +11,7 @@ const Home = () => {
             <AboutFounder/>
             <WhyChooseUs/>
             <Timer/>
+            <CallToAction/>
         </div>
     );
 };
