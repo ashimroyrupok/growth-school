@@ -63,7 +63,7 @@ const Timer = () => {
 
 
   return (
-    <div className="h-[50vh] bg-[#131033] p-12">
+    <div className=" w-full lg:h-[50vh] bg-[#131033] p-12">
       <div className="py-10 text-white">
         <h2 className="text-center text-4xl font-bold">Time is running out.</h2>
         <h2 className="text-center text-4xl font-bold">

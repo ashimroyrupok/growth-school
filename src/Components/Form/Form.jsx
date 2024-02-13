@@ -7,7 +7,7 @@ const Form = () => {
       // Show the modal after 10 seconds
       const timeoutId = setTimeout(() => {
         SetShow(true);
-      }, 5000);
+      }, 15000);
 
       // Clean up the timeout to avoid memory leaks
       return () => clearTimeout(timeoutId);
