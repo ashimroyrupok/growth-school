@@ -2,9 +2,9 @@ import { FaIndianRupeeSign } from "react-icons/fa6";
 
 const CallToAction = () => {
   return (
-    <div className="bg-[#1A1646] flex justify-center items-center h-[50vh] p-10">
-      <div className="w-full text-white p-8 rounded-md border-2 bg-[#131033] flex justify-center items-center">
-        <div className="w-[60%] border-r-2">
+    <div className="bg-[#1A1646] flex justify-center items-center h-full lg:h-[50vh] p-10">
+      <div className="w-full text-white p-8 rounded-md border-2 bg-[#131033] flex flex-col lg:flex-row justify-center items-center">
+        <div className=" w-full lg:w-[60%] lg:border-r-2">
           <h2 className="text-3xl font-semibold text-left">
             Crash course Launch Offer (Save INR 1799)
           </h2>
@@ -14,7 +14,7 @@ const CallToAction = () => {
             <li>The launce offer expires soon,grab your seat NOW</li>
           </ul>
         </div>
-        <div className=" w-[40%] px-8">
+        <div className=" w-full lg:w-[40%] px-8">
           <h2 className="text-[20px]">Price of the Program</h2>
           <div className="flex">
             <span>

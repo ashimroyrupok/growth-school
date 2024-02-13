@@ -12,10 +12,10 @@ const AboutFounder = () => {
           The world need your creativity and your ingenuity. Don't put your
           dreams on hold. <br /> Start your founders journey today!
         </p>
-        <div className="w-full my-7 p-12 flex justify-center items-center gap-7">
-          <img className="w-1/2 rounded-xl" src={image} alt="" />
+        <div className="w-full my-7 p-12 flex flex-col lg:flex-row justify-center items-center gap-7">
+          <img className=" w-full lg:w-1/2 rounded-xl" src={image} alt="" />
 
-          <div className="w-1/2 bg-[#EBE9E2] text-[19px] rounded-xl p-4">
+          <div className=" w-full lg:w-1/2 bg-[#EBE9E2] text-[19px] rounded-xl p-4">
             <h2 className="flex justify-around items-start">
               <FaArrowCircleRight className="mt-1 mr-2 text-[#26484F]"></FaArrowCircleRight>
               <p>
